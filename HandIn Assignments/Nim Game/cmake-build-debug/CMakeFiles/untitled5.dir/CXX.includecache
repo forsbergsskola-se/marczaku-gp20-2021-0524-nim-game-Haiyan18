@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/Nim.cpp
+iostream
+-
+string
+-
+Nim.h
+C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/Nim.h
+
+C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/Nim.h
+Nimpriv.h
+C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/Nimpriv.h
+
+C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/Nimpriv.h
+
