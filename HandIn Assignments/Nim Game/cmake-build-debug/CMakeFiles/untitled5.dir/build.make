@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game"
+CMAKE_SOURCE_DIR = "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles\untitled5.dir\depend.make
@@ -62,21 +62,21 @@ include CMakeFiles\untitled5.dir\flags.make
 
 CMakeFiles\untitled5.dir\Nim.cpp.obj: CMakeFiles\untitled5.dir\flags.make
 CMakeFiles\untitled5.dir\Nim.cpp.obj: ..\Nim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled5.dir/Nim.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled5.dir/Nim.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled5.dir\Nim.cpp.obj /FdCMakeFiles\untitled5.dir\ /FS -c "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\Nim.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\untitled5.dir\Nim.cpp.obj /FdCMakeFiles\untitled5.dir\ /FS -c "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\Nim.cpp"
 <<
 
 CMakeFiles\untitled5.dir\Nim.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled5.dir/Nim.cpp.i"
 	C:\PROGRA~2\MIB055~1\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe > CMakeFiles\untitled5.dir\Nim.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\Nim.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\Nim.cpp"
 <<
 
 CMakeFiles\untitled5.dir\Nim.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled5.dir/Nim.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled5.dir\Nim.cpp.s /c "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\Nim.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\untitled5.dir\Nim.cpp.s /c "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\Nim.cpp"
 <<
 
 # Object files for target untitled5
@@ -89,9 +89,9 @@ untitled5_EXTERNAL_OBJECTS =
 untitled5.exe: CMakeFiles\untitled5.dir\Nim.cpp.obj
 untitled5.exe: CMakeFiles\untitled5.dir\build.make
 untitled5.exe: CMakeFiles\untitled5.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled5.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\untitled5.dir --rc="C:\PROGRA~2\Windows Kits\10\bin\10.0.19041.0\x86\rc.exe" --mt="C:\PROGRA~2\Windows Kits\10\bin\10.0.19041.0\x86\mt.exe" --manifests -- C:\PROGRA~2\MIB055~1\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\untitled5.dir\objects1.rsp @<<
- /out:untitled5.exe /implib:untitled5.lib /pdb:"C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\cmake-build-debug\untitled5.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:untitled5.exe /implib:untitled5.lib /pdb:"C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\cmake-build-debug\untitled5.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -104,6 +104,6 @@ CMakeFiles\untitled5.dir\clean:
 .PHONY : CMakeFiles\untitled5.dir\clean
 
 CMakeFiles\untitled5.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game" "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game" "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\cmake-build-debug" "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\cmake-build-debug" "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game\cmake-build-debug\CMakeFiles\untitled5.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game" "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game" "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\cmake-build-debug" "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\cmake-build-debug" "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game\cmake-build-debug\CMakeFiles\untitled5.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles\untitled5.dir\depend
 

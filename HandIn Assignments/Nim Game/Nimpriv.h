@@ -1,7 +1,7 @@
 private:
 
-int getComputerMove();
-int nTaken = getComputerMove();
+int getPlayer2Move();
+int nTaken = getPlayer2Move();
 
 int findGoodMove(int matches);
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/Nim.cpp" "C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/cmake-build-debug/CMakeFiles/untitled5.dir/Nim.cpp.obj"
+  "C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game/Nim.cpp" "C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game/cmake-build-debug/CMakeFiles/untitled5.dir/Nim.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

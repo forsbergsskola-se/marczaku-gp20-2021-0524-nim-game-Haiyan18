@@ -1,4 +1,4 @@
-# Install script for directory: C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game
+# Install script for directory: C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

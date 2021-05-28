@@ -16,8 +16,7 @@ void simpleNim::printInstructions() {
     cout << "***************************************************************" << endl;
     cout << "Welcome to Nim Game!" << endl;
     cout << "There are " << N_Matches<<" matches on the table in this game." << endl;
-    cout << "Players take turns to draw matches and may draw ";
-    cout << Max_Move << " matches." << endl;
+    cout << "Players take turns to draw matches and may draw 1 to "<< Max_Move << " matches." << endl;
     cout << "player who has to take last match loses" << endl;
     cout << "***************************************************************" << endl << endl;
 }
@@ -25,16 +24,17 @@ void simpleNim::printInstructions() {
 void simpleNim::play() {
     matches = N_Matches;
     whoseTurn = Start_Player;
+    cout << "There are 24 matches on the table now." << endl;
     while (matches > 1){
+        // cout << Printable ASCII [124]:\n << endl;
         cout << "||||||||||||||||||||||||" << endl;
-        cout << "There are " << matches << " matches on the table now." << endl;
-        cout << "||||||||||||||||||||||||" << endl << endl;
+        cout << "There are " << matches << " matches left on the table now." << endl << endl;
         if(whoseTurn == Player1){
             matches -= getUserMove();
         }else{
-            int nTaken = getComputerMove();
-            cout << "I will take " << nTaken << " matches." << endl;
-            matches -= getComputerMove();
+            int nTaken = getPlayer2Move();
+            cout << "Player2: I will take " << nTaken << " matches." << endl;
+            matches -= getPlayer2Move();
         }
         whoseTurn = opponent(whoseTurn);
     }
@@ -42,7 +42,7 @@ void simpleNim::play() {
 }
 
 
-int simpleNim::getComputerMove() {
+int simpleNim::getPlayer2Move() {
     int nTaken = findGoodMove(matches);
     return (nTaken == No_Good_Move) ? 1 : nTaken;
 }
@@ -62,12 +62,8 @@ bool simpleNim::isBadPosition(int matches) {
 
 int simpleNim::getUserMove() {
     while(true){
-       /* int Player1Name;
-        cout << "WHat is your name?" << endl;
-        cin >> Player1Name;
-        cout << "Hi, " << Player1Name << "! " << "Welcome to Nim Game!" << endl;*/
         int nTaken;
-        cout << "How many matches do you want to take? ";
+        cout << "How many matches do you want to take? " << endl << "Player1: " ;
         cin >> nTaken;
         int limit = (matches < Max_Move) ? matches : Max_Move;
         if(nTaken > 0 && nTaken <= Max_Move) return nTaken;
@@ -92,5 +88,7 @@ int main(){
     simpleNim game;
     game.printInstructions();
     game.play();
+    int var=124;
+    cout<<(char)var<<endl;
     return 0;
 }

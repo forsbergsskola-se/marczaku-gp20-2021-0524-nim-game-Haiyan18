@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\GameProjects\GP20-2021-0524-Nim-Game\HandIn Assignments\Nim Game"
+"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\GameProjects\marczaku-gp20-2021-0524-nim-game-Haiyan18\HandIn Assignments\Nim Game"
 -- The C compiler identification is MSVC 19.28.29915.0
 -- The CXX compiler identification is MSVC 19.28.29915.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/GameProjects/GP20-2021-0524-Nim-Game/HandIn Assignments/Nim Game/cmake-build-debug
+-- Build files have been written to: C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game/cmake-build-debug
