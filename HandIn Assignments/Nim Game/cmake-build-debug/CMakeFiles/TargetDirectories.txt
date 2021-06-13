@@ -1,0 +1,3 @@
+C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game/cmake-build-debug/CMakeFiles/untitled5.dir
+C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/GameProjects/marczaku-gp20-2021-0524-nim-game-Haiyan18/HandIn Assignments/Nim Game/cmake-build-debug/CMakeFiles/rebuild_cache.dir
